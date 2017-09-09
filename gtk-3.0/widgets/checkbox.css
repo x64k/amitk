@@ -1,0 +1,57 @@
+checkbutton,
+radiobutton {
+    padding: 0px;
+}
+
+radio,
+check {
+    border-width: 1px;
+    background-color: @bg_color;
+    color: @input_fg_color;
+
+    border-top-color: @border_color_light;
+    border-left-color: @border_color_light;
+    border-bottom-color: @border_color_dark;
+    border-right-color: @border_color_dark;
+    border-style: solid;
+
+    min-height: 12px;
+    min-width: 12px;
+}
+
+radio:not(:last-child),
+check:not(:last-child) {
+    margin-right: 4px;
+}
+
+radio:not(:first-child),
+check:not(:first-child) {
+    margin-left: 4px;
+}
+
+radio {
+    border-radius: 20%;
+}
+
+check:checked {
+    -gtk-icon-source: -gtk-recolor(url("../assets/check.svg"));
+    background: @selected_bg_color;
+    border-top-color: @border_color_dark;
+    border-left-color: @border_color_dark;
+    border-bottom-color: @border_color_light;
+    border-right-color: @border_color_light;
+}
+
+radio:checked {
+    -gtk-icon-source: -gtk-recolor(url("../assets/radio.svg"));
+    background: @selected_bg_color;
+    border-top-color: @border_color_dark;
+    border-left-color: @border_color_dark;
+    border-bottom-color: @border_color_light;
+    border-right-color: @border_color_light;
+}
+
+radio:disabled, check:disabled {
+    border-color: @border_color_dim;
+}
+

@@ -1,0 +1,17 @@
+paned separator {
+    background-color: @bg_color_darken;
+    background-image: url("../assets/pane-handle.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 4px;
+    min-height: 8px;
+}
+
+paned.vertical > separator {
+    background-image: url("../assets/pane-handle-vertical.svg");
+    background-color: @bg_color_darken;
+}
+
+paned separator:hover {
+    background-color: @bg_color_lighten;
+}

@@ -1,0 +1,18 @@
+scrolledwindow {
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-style: ridge;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: @border_color_dark;
+    border-left-color: @border_color_dark;
+    border-bottom-color: @border_color_light;
+    border-right-color: @border_color_light;
+}
+
+scrolledwindow treeview {
+	background: @input_bg_color;
+}

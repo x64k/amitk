@@ -1,0 +1,82 @@
+* {
+    -GtkScrolledWindow-scrollbar-spacing: 4px;
+}
+
+scrolledwindow {
+    border-width: 0px;
+}
+
+scrollbar {
+    -GtkScrollbar-has-backward-stepper: true;
+    -GtkScrollbar-has-forward-stepper: true;
+
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px;
+    border-top-color: @border_color_dark;
+    border-left-color: @border_color_dark;
+    border-bottom-color: @border_color_light;
+    border-right-color: @border_color_light;
+    margin: 1px 0px;
+}
+
+scrollbar slider {
+    border-style: solid;
+    border-width: 1px;
+    border-top-color: @border_color_light;
+    border-left-color: @border_color_light;
+    border-bottom-color: @border_color_dark;
+    border-right-color: @border_color_dark;
+    background-color: @bg_color;
+    min-width: 14px;
+    min-height: 14px;
+}
+
+scrollbar button {
+    border-style: solid;
+    border-width: 1px;
+    border-top-color: @border_color_light;
+    border-left-color: @border_color_light;
+    border-bottom-color: @border_color_dark;
+    border-right-color: @border_color_dark;
+    background-color: @bg_color;
+    padding: 2px;
+    min-width: 10px;
+    min-height: 10px;
+}
+
+
+scrollbar slider:active {
+    background-color: @selected_bg_color;
+}
+
+scrollbar through {
+    border: 0;
+}
+
+scrollbar button:disabled {
+    border-style: solid;
+    border-width: 1px;
+    border-top-color: @border_color_light;
+    border-left-color: @border_color_light;
+    border-bottom-color: @border_color_dark;
+    border-right-color: @border_color_dark;
+    background-color: @bg_color;
+}
+
+scrollbar.vertical button.up {
+    -gtk-icon-source: url('assets/arrow_up.png');
+}
+
+scrollbar.vertical button.down {
+    -gtk-icon-source: url('assets/arrow_down.png');
+}
+
+scrollbar.horizontal button.up {
+    -gtk-icon-source: url('assets/arrow_left.png');
+}
+
+scrollbar.horizontal button.down {
+    -gtk-icon-source: url('assets/arrow_right.png');
+}
+

@@ -1,0 +1,20 @@
+/* A bunch of ugly hacks for oversized status bars that have 10-px high*/
+/* text but are 32-px high for some reason */
+
+statusbar {
+    color: @fg_color;
+}
+
+statusbar border {
+    border: 0;
+}
+
+statusbar {
+	padding: 0px;
+	border: 0px;
+	margin: -2px;
+}
+
+statusbar box {
+	margin: 0px;
+}

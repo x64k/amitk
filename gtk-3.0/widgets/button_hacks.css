@@ -1,0 +1,57 @@
+/* Open file... "Open" and "Cancel" documents are badly misaligned by*/
+/* default. I have no idea why. This makes the situation slightly*/
+/* better, but barely. Frankly, this looks like yet another thing that
+ * ought to be fixed in GTK... */
+
+button widget box {
+	margin-top: 1px;
+}
+
+button widget box image {
+	margin-top: 1px;
+}
+
+/* Hacks for several Mate application buttons. E.g. Atril toolbar
+   buttons are made of a tolbutton->button->box->(image + icon)
+   hierarchy. The default left/right badding of boxes is too small and
+   this results in images being very close to the button's edge */
+
+toolbutton button {
+    padding: 2px;
+    min-width: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-style: ridge;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: @border_color_light;
+    border-left-color: @border_color_light;
+    border-bottom-color: @border_color_dark;
+    border-right-color: @border_color_dark;
+}
+
+toolbutton button {
+    padding: 2px;
+    min-width: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-style: ridge;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+toolbutton button:not(disabled) {
+    border-top-color: @border_color_light;
+    border-left-color: @border_color_light;
+    border-bottom-color: @border_color_dark;
+    border-right-color: @border_color_dark;
+}
+
+toolbutton button box {
+	padding-right: 4px;
+	padding-right: 8px;
+}

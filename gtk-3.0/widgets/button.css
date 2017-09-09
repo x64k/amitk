@@ -1,0 +1,129 @@
+button {
+    border-radius: 0px;
+    padding: 1px 2px;
+    border-width: 1px;
+    color: @input_fg_color;
+}
+
+button:focus {
+    /* IIRC, Workbench had no concept of focus, but maybe it's worth*/
+    /* taking some poetic license here. */
+}
+
+/* There is no such thing as a flat button in an UI for real
+   computers. I'm sure we'll figure something out when the Amiga tablet
+   shows up. */
+
+button.flat {
+    background: @bg_color;
+
+    border-top-color: @border_color_light;
+    border-left-color: @border_color_light;
+    border-bottom-color: @border_color_dark;
+    border-right-color: @border_color_dark;
+}
+
+button:hover {
+    /* IIRC, Workbench had no hovering. I toyed with adding one; it was*/
+    /* rather disturbing. Maybe think of something more subtle, like a*/
+    /* quiet gradient? */
+}
+
+button:active, button:checked {
+    background: @selected_bg_color;
+    border-top-color: @border_color_dark;
+    border-left-color: @border_color_dark;
+    border-bottom-color: @border_color_light;
+    border-right-color: @border_color_light;
+}
+
+button:disabled,
+button.flat:disabled {
+    border-style: solid;
+    border-top-color: @border_color_dim;
+    border-left-color: @border_color_dim;
+    border-bottom-color: @border_color_dim;
+    border-right-color: @border_color_dim;
+    background: @bg_color;
+}
+
+button.circular {
+    border-radius: 100em;
+}
+
+button.link label {
+    color: @focus_color;
+    text-decoration: underline;
+}
+button.link:hover label,
+button.link:focus label {
+    color: mix(@focus_color, @fg_color, 0.2);
+}
+button.link:active label {
+    color: mix(@focus_color, @fg_color, 0.5);
+}
+
+.linked button,
+.linked entry {
+    border-radius: 0;
+    border-width: 1px 0 1px 1px;
+}
+.linked button:last-child,
+.linked entry:last-child {
+    border-width: 1px;
+}
+
+.linked.horizontal button:first-child,
+.linked.horizontal entry:first-child {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.linked.horizontal button:last-child,
+.linked.horizontal entry:last-child {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.linked.vertical button,
+.linked.vertical entry {
+    border-width: 1px 1px 0 1px;
+}
+.linked.vertical button:first-child,
+.linked.vertical entry:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.linked.vertical button:last-child,
+.linked.vertical entry:last-child {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+spinbutton {
+    border-width: 1px;
+}
+spinbutton entry {
+    border-width: 0;
+}
+spinbutton button {
+    border-radius: 0;
+}
+spinbutton.horizontal button {
+    border-width: 0 0 0 1px;
+}
+spinbutton.vertical button.up {
+    border-width: 0 0 1px;
+}
+spinbutton.vertical button.down {
+    border-width: 1px 0 0;
+}
+spinbutton button:focus {
+    border-color: @border_color;
+}
+
+combobox button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+@import url("button_hacks.css");

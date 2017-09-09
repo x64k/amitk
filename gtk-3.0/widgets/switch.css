@@ -1,0 +1,32 @@
+switch {
+    border-width: 1px;
+    font-weight: bold;
+    border-radius: 0px;
+}
+
+switch:checked {
+    background: @selected_bg_color;
+    color: @selected_fg_color;
+}
+
+switch slider {
+    /* same as in button */
+    background: @bg_color_darken;
+    border-width: 1px;
+    border-radius: 3px;
+    margin: 1px;
+
+    border-right-width: 1px;
+    border-top-color: @border_color_dark;
+    border-left-color: @border_color_dark;
+    border-bottom-color: @border_color_light;
+    border-right-color: @border_color_light;
+}
+switch:hover slider,
+switch:focus slider {
+    background: @bg_color;
+}
+
+switch:disabled slider {
+    background: @bg_color;
+}

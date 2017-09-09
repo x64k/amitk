@@ -1,0 +1,73 @@
+menubar {
+    background: @bg_color;
+    color: @fg_color;
+    border: 0px;
+    padding: 0px 4px 0px 4px;
+    margin: 2px 2px 2px 2px;
+
+    border-style: ridge;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: @border_color_light;
+    border-left-color: @border_color_light;
+    border-bottom-color: @border_color_dark;
+    border-right-color: @border_color_dark;
+}
+
+menu {
+    background: @input_bg_color;
+    color: @input_fg_color;
+    border-style: ridge;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: @border_color_light;
+    border-left-color: @border_color_light;
+    border-bottom-color: @border_color_dark;
+    border-right-color: @border_color_dark;
+}
+
+menuitem {
+    padding: 1px 8px 1px 4px;
+}
+
+menu menuitem {
+    padding: 1px;
+    margin: 2px;
+}
+
+menuitem:hover,
+menuitem:hover > *,
+combobox menuitem:hover * {
+    background: @selected_bg_color;
+    color: @selected_fg_color;
+}
+
+toolbar {
+    background: @bg_color;
+    color: @fg_color;
+    padding: 1px;
+    margin: 2px 2px 4px 2px;
+
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: ridge;
+    border-width: 0px 0px 0px 0px;
+    border-bottom-color: @border_color_dark;
+}
+
+toolbar button:hover {
+	background: @bg_color_lighten;
+}
+
+separator {
+    background-color: @border_color;
+    margin: 0.2em;
+    min-width: 1px;
+    min-height: 1px;
+}
+
+@import url("menu_hacks.css");

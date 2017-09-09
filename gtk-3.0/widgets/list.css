@@ -1,0 +1,26 @@
+list {
+    background: @input_bg_color;
+    color: @input_fg_color;
+    padding-top: 4px;
+    margin: 2px;
+    border-style: ridge;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: @border_color_dark;
+    border-left-color: @border_color_dark;
+    border-bottom-color: @border_color_light;
+    border-right-color: @border_color_light;
+}
+
+list row.activatable {
+    padding: 4px;
+}
+list row image {
+    margin-right: 0.5em;
+}
+
+list separator {
+    border-bottom: 1px solid @border_color;
+}

@@ -1,0 +1,44 @@
+scale {
+    padding: 1px;
+    min-height: 16px;
+    min-width: 16px;
+}
+
+scale contents {
+    border-width: 1px;
+    background: @input_bg_color;
+}
+
+scale highlight {
+    background: @selected_bg_color;
+    min-width: 6px;
+    min-height: 6px;
+}
+
+scale slider {
+    border-radius: 0%;
+    border-width: 1px;
+    min-width: 8px;
+    min-height: 8px;
+    border-top-color: @border_color_light;
+    border-left-color: @border_color_light;
+    border-bottom-color: @border_color_dark;
+    border-right-color: @border_color_dark;
+    background: @input_bg_color;
+    margin: -6px;
+}
+
+scale slider:disabled {
+    border-top-color: @bg_color_dim;
+    border-left-color: @bg_color_dim;
+    border-bottom-color: @bg_color_dim;
+    border-right-color: @bg_color_dim;
+    background: @bg_color;
+}
+
+scale mark {
+    background-color: @fg_color;
+    margin-top: 2px;
+    min-height: 5px;
+    min-width: 1px;
+}

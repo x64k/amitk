@@ -1,0 +1,21 @@
+progressbar {
+    border-style: ridge;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: @border_color_dark;
+    border-left-color: @border_color_dark;
+    border-bottom-color: @border_color_light;
+    border-right-color: @border_color_light;
+    background: @bg_color_darken;
+}
+
+/* FIXME: there is at least a second wrapper type. I don't know what it is */
+progressbar progress {
+    background: @selected_bg_color;
+}
+
+entry progress {
+    border-bottom: 2px solid @selected_bg_color;
+}

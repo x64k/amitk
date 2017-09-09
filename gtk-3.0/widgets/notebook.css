@@ -1,0 +1,90 @@
+
+notebook.frame {
+    background: @bg_color;
+}
+
+notebook tab {
+    padding: 1px 5px;
+    border-width: 1px;
+    color: @secondary_fg_color;
+    background: @bg_color_darken;
+}
+
+notebook tab:not(checked) {
+	background: @bg_color_darken;
+	color: @fg_color;
+}
+
+notebook tab:checked {
+    background: @bg_color;
+    color: @fg_color;
+    outline-style: none;
+}
+
+notebook header {
+    background: @bg_color;
+}
+
+notebook stack {
+    padding-top: 4px;
+    background: @bg_color;
+    border-style: ridge;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: @border_color_dark;
+    border-left-color: @border_color_dark;
+    border-bottom-color: @border_color_light;
+    border-right-color: @border_color_light;
+}
+
+notebook .top tab {
+    margin-top: 0px;
+    border-bottom-color: @bg_color;
+    border-top-left-radius: 6px;
+}
+
+notebook .top tab:checked {
+    margin-top: 0px;
+}
+
+notebook .right tab {
+    margin-right: 0px;
+}
+notebook .right tab:checked {
+    margin-right: 0px;
+    border-left: 0px;
+    border-bottom-right-radius: 6px;
+}
+
+notebook .bottom tab {
+    margin-bottom: 0px;
+    border-bottom-right-radius: 6px;
+}
+
+notebook .bottom tab:checked {
+    margin-bottom: 0px;
+    border-top: 0px;
+}
+
+notebook .left tab {
+    margin-left: 0px;
+}
+notebook .left tab:checked {
+    margin-left: 0px;
+    border-right: 0px;
+    border-bottom-left-radius: 6px;
+}
+
+/* Keep the buttons in tabs flat, since the tabs already have the ridge
+   and 3D looks and whatnot */
+
+tab button, tab button.flat {
+	border-width: 0px;
+	background: @bg_color_darken;
+}
+
+tab:checked button, tab:checked button.flat {
+	background: @bg_color;
+}

@@ -1,0 +1,20 @@
+@define-color scratch_color #00ff00;
+@define-color bg_color #929793;
+@define-color bg_color_darken #828782;
+@define-color bg_color_lighten #B2B7B3;
+@define-color fg_color #111;
+@define-color fg_color_lighten #888;
+@define-color base_color #929793;
+@define-color text_color #111111;
+@define-color selected_bg_color #638cbd;
+@define-color selected_fg_color #111111;
+@define-color tooltip_fg_color @text_color;
+@define-color tooltip_bg_color #fff;
+
+@define-color border_color_light #cccccc;
+@define-color border_color_dark  #000000;
+@define-color border_color_dim   #727773;
+@define-color input_bg_color #828783;
+@define-color input_fg_color @text_color;
+@define-color secondary_fg_color #666666;
+@define-color focus_color @fg_color;

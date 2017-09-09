@@ -1,0 +1,88 @@
+/* default color scheme */
+
+@import url("colors_ami.css");
+/* @import url("colors_amiblue.css"); */
+
+* {
+    border-top-color: @border_color_light;
+    border-left-color: @border_color_light;
+    border-bottom-color: @border_color_dark;
+    border-right-color: @border_color_dark;
+    border-style: solid;
+
+    -GtkTreeView-expander-size: 11;
+}
+
+*.view {
+    	background: @input_bg_color;
+        border-top-color: @border_color_dark;
+        border-left-color: @border_color_dark;
+        border-bottom-color: @border_color_light;
+        border-right-color: @border_color_light;
+        margin: 2px;
+}
+
+grid {
+    margin: 2px;
+}
+
+*:hover, *:focus {
+    -gtk-icon-effect: highlight;
+}
+
+selection,
+*:selected:selected,
+*:selected:focus {
+    background-color: @selected_bg_color;
+    color: @selected_fg_color;
+}
+/* !important seems to be broken, so I use this hack to push specificity */
+*:disabled:disabled {
+    color: @secondary_fg_color;
+    -gtk-icon-effect: dim;
+}
+.background {
+    background: @base_color;
+    color: @fg_color;
+}
+
+textview,
+paned.view,
+.cell {
+    background: @input_bg_color;
+    color: @input_fg_color;
+}
+
+slider:focus,
+switch:focus slider,
+spinbutton:focus,
+radio:focus,
+check:focus,
+entry:focus {
+    border-color: @focus_color;
+}
+
+@import url("widgets/app-notification.css");
+@import url("widgets/arrow.css");
+@import url("widgets/button.css");
+@import url("widgets/checkbox.css");
+@import url("widgets/frame.css");
+@import url("widgets/headerbar.css");
+@import url("widgets/list.css");
+@import url("widgets/menu.css");
+@import url("widgets/notebook.css");
+@import url("widgets/pane-separator.css");
+@import url("widgets/statusbar.css");
+@import url("widgets/popover.css");
+@import url("widgets/progress_bar.css");
+@import url("widgets/scale.css");
+@import url("widgets/scrollbar.css");
+@import url("widgets/spinner.css");
+@import url("widgets/switch.css");
+@import url("widgets/tooltip.css");
+@import url("widgets/treeview.css");
+@import url("widgets/combobox.css");
+@import url("widgets/scrolledwindow.css");
+@import url("widgets/filechooser.css");
+@import url("widgets/global_hacks.css");
+

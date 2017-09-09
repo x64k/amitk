@@ -1,0 +1,30 @@
+popover.background,
+toolbar.osd {
+    background: @input_bg_color;
+    color: @input_fg_color;
+    border-radius: 0px;
+    border-width: 1px;
+}
+
+popover modelbutton {
+    background: none;
+    color: inherit;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 0px;
+    padding: 0.3em;
+}
+popover modelbutton:hover {
+    background: @selected_bg_color;
+    color: @selected_fg_color;
+}
+/* First item is initially focused, so using same style
+ * as :hover would be irritating */
+popover modelbutton:focus {
+    border: 1px dotted @border_color;
+}
+
+toolbar.osd {
+    border-radius: 0px;
+    padding: 2em;
+}
