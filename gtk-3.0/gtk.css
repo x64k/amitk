@@ -62,6 +62,12 @@ entry:focus {
     border-color: @focus_color;
 }
 
+/* For some reason a gradient is needed, passing a single colors is*/
+/* ignored. */
+.titlebar:not(headerbar), headerbar {
+    background: @base_color linear-gradient(to top, @base_color, @base_color);
+}
+
 @import url("widgets/app-notification.css");
 @import url("widgets/arrow.css");
 @import url("widgets/button.css");
