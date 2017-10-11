@@ -10,3 +10,8 @@ toolitem combobox {
 .gnome-panel-menu-bar menubar {
 	border: 0px;
 }
+
+/* pcmanfm: Leave some room between buttons and entry box */
+toolbar entry {
+    margin-left: 4px;
+}
