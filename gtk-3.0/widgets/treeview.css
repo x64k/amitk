@@ -23,6 +23,11 @@ treeview.view {
     color: @input_fg_color;
 }
 
+treeview.view:selected {
+    border: 1px dotted @border_color;
+    background: @bg_color;
+}
+
 treeview.view:selected:focus {
     border: 1px dotted @border_color;
     background: @bg_color;
@@ -30,18 +35,18 @@ treeview.view:selected:focus {
 
 treeview.trough {
     border-width: 1px;
-    padding: 8px;
+    padding: 1px;
 }
 
 treeview.progressbar {
-    background-color: @selected_bg_color;
-    color: @selected_fg_color;
+    background-color: alpha(@selected_bg_color, 1);
+    color: alpha(@selected_fg_color, 1);
 }
 
 treeview.progressbar:selected,
 treeview.progressbar:selected:focus {
-    background-color: @bg_color;
-    color: @selected_bg_color;
+    background-color: @selected_bg_color;
+    color: @selected_fg_color;
 }
 
 treeview header button {
