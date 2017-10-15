@@ -2,6 +2,7 @@
 @define-color bg_color #383c4a;
 @define-color bg_color_darken #282c3a;
 @define-color bg_color_lighten #484c6a;
+@define-color bg_color_halfblack #1d1f26; /* use instead of stipple */
 @define-color fg_color #aaccff;
 @define-color fg_color_lighten #ddeeff;
 @define-color base_color #383c4a;
