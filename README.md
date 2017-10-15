@@ -56,13 +56,13 @@ KNOWN ISSUES
   it via padding, but the GTK3 theme engine is stubborn. I'm working on
   it.
 
-- Scrollbar glitches in Emacs. Since they only happen in Emacs, I will
-  guess this is yet another high quality release from GTK3 being high
-  quality.
+- Scrollbar glitches in Emacs (flickering on redraw).
+  This seems spesific to Emacs and hasn't been observed elsewhere.
 
-- Bad scroll-bars in Firefox, LibreOffice and Thunderbird. I suspect this
-  is an application-specific hack used to work around GTK3's general
-  approach to scroll-bars, but I am not sure yet.
+- Scroll-bars buttons aren't matching the theme in
+  Firefox, LibreOffice and Thunderbird.
+  Most likely an application-specific customization over GTK3's
+  general approach to scroll-bars.
 
 - Text and icons are misaligned on some buttons. This looks like a GTK3
   problem. Flat themes make this problem less obvious. I don't know how
@@ -81,13 +81,10 @@ CONTACT INFO
 ------------
 
 If you have bug reports, patches, suggestions, questions or anything of
-the like, write me at alazar dot startmail dot com.
+the like, create a new issue at https://github.com/ailazarus/amitk
 
-If you are sending a bug report, please mention what distribution you
+If you are creating a bug report, please mention what distribution you
 are using, what version of the application the bug report is about (if
 any), what GTK version you are using and, if possible, include a
 screenshot.
 
-If you are sending a patch, please include your name so that I can give
-you proper credit (or a suitable pseudonym, if you want your
-contribution to be reasonably anonymous).
