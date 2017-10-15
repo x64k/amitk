@@ -14,12 +14,12 @@
 }
 
 *.view {
-    	background: @input_bg_color;
-        border-top-color: @border_color_dark;
-        border-left-color: @border_color_dark;
-        border-bottom-color: @border_color_light;
-        border-right-color: @border_color_light;
-        margin: 2px;
+    background: @input_bg_color;
+    border-top-color: @border_color_dark;
+    border-left-color: @border_color_dark;
+    border-bottom-color: @border_color_light;
+    border-right-color: @border_color_light;
+    margin: 2px;
 }
 
 grid {
@@ -95,4 +95,3 @@ headerbar {
 @import url("widgets/scrolledwindow.css");
 @import url("widgets/filechooser.css");
 @import url("widgets/global_hacks.css");
-

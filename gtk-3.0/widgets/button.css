@@ -11,8 +11,8 @@ button:focus {
 }
 
 /* There is no such thing as a flat button in an UI for real
-   computers. I'm sure we'll figure something out when the Amiga tablet
-   shows up. */
+ * computers. I'm sure we'll figure something out when the Amiga tablet
+ * shows up. */
 
 button.flat {
     background: @bg_color;

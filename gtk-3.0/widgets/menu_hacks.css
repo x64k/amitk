@@ -1,14 +1,14 @@
 /* Combo boxes get lumped together with other buttons on the toolbar,
-   and they look really bad */
+ * and they look really bad */
 
 toolitem combobox {
-	margin-right: 4px;
-	margin-left: 4px;
+    margin-right: 4px;
+    margin-left: 4px;
 }
 
 /* Mate's bar hates it otherwise */
 .gnome-panel-menu-bar menubar {
-	border: 0px;
+    border: 0px;
 }
 
 /* pcmanfm: Leave some room between buttons and entry box */

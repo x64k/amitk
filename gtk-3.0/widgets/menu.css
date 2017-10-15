@@ -51,7 +51,7 @@ toolbar {
 }
 
 toolbar button:hover {
-	background: @bg_color_lighten;
+    background: @bg_color_lighten;
 }
 
 separator {
