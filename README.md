@@ -32,7 +32,7 @@ scroll-bars visible at all times
 NOTES
 -----
 
-- As with anything labeled 0.1, things are bound to break. If they break
+- As with anything labeled 0.x, things are bound to break. If they break
   anything that is important to you, contact me (see "Contact info"
   below) and let me know. I cannot promise a fix, but I promise I'll at
   least take a look.
@@ -56,7 +56,7 @@ KNOWN ISSUES
   it via padding, but the GTK3 theme engine is stubborn. I'm working on
   it.
 
-- Scrollbar glitech is Emacs. Since they only happen in Emacs, I will
+- Scrollbar glitches in Emacs. Since they only happen in Emacs, I will
   guess this is yet another high quality release from GTK3 being high
   quality.
 
