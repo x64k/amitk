@@ -42,6 +42,23 @@ check:checked {
     border-right-color: @border_color_light;
 }
 
+check:not(:checked) {
+    background: @input_bg_color;
+    border-top-color: @border_color_light;
+    border-left-color: @border_color_light;
+    border-bottom-color: @border_color_dark;
+    border-right-color: @border_color_dark;
+}
+
+/* Else selected checkbox (in tree-view for eg), doesn't appear checked. */
+check:not(:checked):selected {
+    background: @input_bg_color;
+    border-top-color: @border_color_light;
+    border-left-color: @border_color_light;
+    border-bottom-color: @border_color_dark;
+    border-right-color: @border_color_dark;
+}
+
 radio:checked {
     -gtk-icon-source: -gtk-recolor(url("../assets/radio.svg"));
     background: @selected_bg_color;
