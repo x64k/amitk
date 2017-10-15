@@ -37,7 +37,7 @@ scale slider:disabled {
 }
 
 scale mark {
-    background-color: @fg_color;
+    background-color: @bg_color;
     margin-top: 2px;
     min-height: 5px;
     min-width: 1px;
