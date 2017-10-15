@@ -2,9 +2,8 @@ AmiTK: Readme
 =============
 
 tl;dr: Based on Tobias Bengfort's Clearcodes theme, loosely based on
-late Amiga Workbench look, no GTK2 (yet), write me at
-alazar@startmail.com with any bugs, suggestions and patches, make
-sure to include your name so that I can credit you!
+late Amiga Workbench look, no GTK2 (yet), pull requests and bug
+reports always welcome!
 
 INTRODUCTION
 ------------
