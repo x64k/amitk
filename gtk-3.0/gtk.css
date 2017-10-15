@@ -64,7 +64,11 @@ entry:focus {
 
 /* For some reason a gradient is needed, passing a single colors is*/
 /* ignored. */
-.titlebar:not(headerbar), headerbar {
+headerbar {
+    background: @base_color linear-gradient(to top, @base_color, @base_color);
+}
+
+.titlebar {
     background: @base_color linear-gradient(to top, @base_color, @base_color);
 }
 
