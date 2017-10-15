@@ -10,6 +10,7 @@ scrollbar {
     -GtkScrollbar-has-backward-stepper: true;
     -GtkScrollbar-has-forward-stepper: true;
 
+    background-color: @bg_color_halfblack;
     border-style: solid;
     border-width: 1px;
     padding: 1px;
