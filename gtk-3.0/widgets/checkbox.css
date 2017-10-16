@@ -71,4 +71,3 @@ radio:checked {
 radio:disabled, check:disabled {
     border-color: @border_color_dim;
 }
-

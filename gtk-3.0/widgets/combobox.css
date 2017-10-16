@@ -10,7 +10,7 @@ entry {
 }
 
 entry:disabled {
-	border-color: @border_color_dim;
+    border-color: @border_color_dim;
 }
 
 entry:focus {
@@ -26,25 +26,25 @@ combobox {
 }
 
 combobox button {
-	border-radius: 0px;
-	border-left: 0px;
-	border-style: solid;
-	border-width: 1px;
+    border-radius: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-width: 1px;
 
-        border-top-color: @border_color_light;
-	border-left-color: @border_color_light;
-	border-bottom-color: @border_color_dark;
-	border-right-color: @border_color_dark;
+    border-top-color: @border_color_light;
+    border-left-color: @border_color_light;
+    border-bottom-color: @border_color_dark;
+    border-right-color: @border_color_dark;
 }
 
 combobox button:disabled {
-	border-radius: 0px;
-	border-left: 0px;
-	border-style: solid;
-	border-width: 1px;
+    border-radius: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-width: 1px;
 
-        border-top-color: @border_color_dim;
-	border-left-color: @border_color_dimt;
-	border-bottom-color: @border_color_dim;
-	border-right-color: @border_color_dim;
+    border-top-color: @border_color_dim;
+    border-left-color: @border_color_dimt;
+    border-bottom-color: @border_color_dim;
+    border-right-color: @border_color_dim;
 }

@@ -14,5 +14,5 @@ scrolledwindow {
 }
 
 scrolledwindow treeview {
-	background: @input_bg_color;
+    background: @input_bg_color;
 }

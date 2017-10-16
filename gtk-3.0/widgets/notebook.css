@@ -11,8 +11,8 @@ notebook tab {
 }
 
 notebook tab:not(checked) {
-	background: @bg_color_darken;
-	color: @fg_color;
+    background: @bg_color_darken;
+    color: @fg_color;
 }
 
 notebook tab:checked {
@@ -78,13 +78,13 @@ notebook .left tab:checked {
 }
 
 /* Keep the buttons in tabs flat, since the tabs already have the ridge
-   and 3D looks and whatnot */
+ * and 3D looks and whatnot */
 
 tab button, tab button.flat {
-	border-width: 0px;
-	background: @bg_color_darken;
+    border-width: 0px;
+    background: @bg_color_darken;
 }
 
 tab:checked button, tab:checked button.flat {
-	background: @bg_color;
+    background: @bg_color;
 }
