@@ -34,7 +34,7 @@ radio {
 }
 
 check:checked {
-    -gtk-icon-source: -gtk-recolor(url("../assets/check.svg"));
+    -gtk-icon-source: -gtk-recolor(url("./assets/check.svg"));
     background: @selected_bg_color;
     border-top-color: @border_color_dark;
     border-left-color: @border_color_dark;
@@ -60,7 +60,7 @@ check:not(:checked):selected {
 }
 
 radio:checked {
-    -gtk-icon-source: -gtk-recolor(url("../assets/radio.svg"));
+    -gtk-icon-source: -gtk-recolor(url("./assets/radio.svg"));
     background: @selected_bg_color;
     border-top-color: @border_color_dark;
     border-left-color: @border_color_dark;
