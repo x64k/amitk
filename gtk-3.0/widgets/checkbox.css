@@ -30,7 +30,7 @@ check:not(:first-child) {
 }
 
 radio {
-    border-radius: 20%;
+    border-radius: 36%;
 }
 
 check:checked {
