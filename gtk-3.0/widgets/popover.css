@@ -1,7 +1,7 @@
 popover.background,
 toolbar.osd {
-    background: @input_bg_color;
-    color: @input_fg_color;
+    background: @bg_color_input;
+    color: @fg_color_input;
     border-radius: 0px;
     border-width: 1px;
 }

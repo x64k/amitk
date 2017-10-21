@@ -1,8 +1,8 @@
 entry {
     padding: 1px;
     border-width: 1px 0px 1px 1px;
-    background-color: @input_bg_color;
-    color: @input_fg_color;
+    background-color: @bg_color_input;
+    color: @fg_color_input;
     border-top-color: @border_color_dark;
     border-left-color: @border_color_dark;
     border-bottom-color: @border_color_light;

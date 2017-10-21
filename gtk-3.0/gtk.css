@@ -14,7 +14,7 @@
 }
 
 *.view {
-    background: @input_bg_color;
+    background: @bg_color_input;
     border-top-color: @border_color_dark;
     border-left-color: @border_color_dark;
     border-bottom-color: @border_color_light;
@@ -38,7 +38,7 @@ selection,
 }
 /* !important seems to be broken, so I use this hack to push specificity */
 *:disabled:disabled {
-    color: @secondary_fg_color;
+    color: @fg_color_secondary;
     -gtk-icon-effect: dim;
 }
 .background {
@@ -49,8 +49,8 @@ selection,
 textview,
 paned.view,
 .cell {
-    background: @input_bg_color;
-    color: @input_fg_color;
+    background: @bg_color_input;
+    color: @fg_color_input;
 }
 
 slider:focus,

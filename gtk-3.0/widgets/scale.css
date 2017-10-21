@@ -6,7 +6,7 @@ scale {
 
 scale contents {
     border-width: 1px;
-    background: @input_bg_color;
+    background: @bg_color_input;
 }
 
 scale highlight {
@@ -24,7 +24,7 @@ scale slider {
     border-left-color: @border_color_light;
     border-bottom-color: @border_color_dark;
     border-right-color: @border_color_dark;
-    background: @input_bg_color;
+    background: @bg_color_input;
     margin: -6px;
 }
 

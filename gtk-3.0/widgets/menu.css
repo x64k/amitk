@@ -6,8 +6,8 @@ menubar {
 }
 
 menu {
-    background: @input_bg_color;
-    color: @input_fg_color;
+    background: @bg_color_input;
+    color: @fg_color_input;
     border-style: ridge;
     border-top-width: 1px;
     border-bottom-width: 1px;
@@ -38,7 +38,7 @@ combobox menuitem:hover * {
 }
 
 toolbar {
-    background: @input_bg_color;
+    background: @bg_color_input;
     padding: 4px;
     margin: 0px 2px;
 

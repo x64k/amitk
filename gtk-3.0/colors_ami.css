@@ -15,7 +15,7 @@
 @define-color border_color_light #cccccc;
 @define-color border_color_dark  #000000;
 @define-color border_color_dim   #727773;
-@define-color input_bg_color #828783;
-@define-color input_fg_color @text_color;
-@define-color secondary_fg_color #666666;
+@define-color bg_color_input #828783;
+@define-color fg_color_input @text_color;
+@define-color fg_color_secondary #666666;
 @define-color focus_color @fg_color;

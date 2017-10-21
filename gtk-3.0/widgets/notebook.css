@@ -6,7 +6,7 @@ notebook.frame {
 notebook tab {
     padding: 1px 5px;
     border-width: 1px;
-    color: @secondary_fg_color;
+    color: @fg_color_secondary;
     background: @bg_color_darken;
 }
 

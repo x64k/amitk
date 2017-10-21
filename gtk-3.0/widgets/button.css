@@ -2,7 +2,7 @@ button {
     border-radius: 0px;
     padding: 1px 2px;
     border-width: 1px;
-    color: @input_fg_color;
+    color: @fg_color_input;
 }
 
 button:focus {

@@ -7,7 +7,7 @@ radio,
 check {
     border-width: 1px;
     background-color: @bg_color;
-    color: @input_fg_color;
+    color: @fg_color_input;
 
     border-top-color: @border_color_light;
     border-left-color: @border_color_light;
@@ -43,7 +43,7 @@ check:checked {
 }
 
 check:not(:checked) {
-    background: @input_bg_color;
+    background: @bg_color_input;
     border-top-color: @border_color_light;
     border-left-color: @border_color_light;
     border-bottom-color: @border_color_dark;
@@ -52,7 +52,7 @@ check:not(:checked) {
 
 /* Else selected checkbox (in tree-view for eg), doesn't appear checked. */
 check:not(:checked):selected {
-    background: @input_bg_color;
+    background: @bg_color_input;
     border-top-color: @border_color_light;
     border-left-color: @border_color_light;
     border-bottom-color: @border_color_dark;

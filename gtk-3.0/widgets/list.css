@@ -1,6 +1,6 @@
 list {
-    background: @input_bg_color;
-    color: @input_fg_color;
+    background: @bg_color_input;
+    color: @fg_color_input;
     padding-top: 4px;
     margin: 2px;
     border-style: ridge;

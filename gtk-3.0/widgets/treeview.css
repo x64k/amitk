@@ -19,8 +19,8 @@ treeview button {
 }
 
 treeview.view {
-    background-color: @input_bg_color;
-    color: @input_fg_color;
+    background-color: @bg_color_input;
+    color: @fg_color_input;
 }
 
 treeview.view:selected {
