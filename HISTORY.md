@@ -8,3 +8,5 @@ AmiTK: History
 * 0.2: Small menubar and toolbar fixes.
 
 * 0.3: Several fixes, improved scrollbar contrast.
+
+* 0.4: Resource path fixes, source code cleanup
