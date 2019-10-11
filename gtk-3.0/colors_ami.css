@@ -19,3 +19,7 @@
 @define-color fg_color_input @text_color;
 @define-color fg_color_secondary #666666;
 @define-color focus_color @fg_color;
+
+/* Web colors. */
+@define-color link_color #2c82dd;
+@define-color link_color_visited #8020dd;
