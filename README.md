@@ -1,3 +1,13 @@
+**NOTE:** This repository has been archived.
+
+If you like this, and want to keep using it or to improve it and share it with others, please feel free to do so!
+
+I'm not using it anymore, though, so I'm not maintaining it anymore, either.
+
+For a long time, I've been unhappy about the direction most FOSS desktop software and communities were heading in. At some point, I just gave up. My Linux productivity secret today is that I `ssh` into my Linux and BSD boxes from a Mac.
+
+Original README follows.
+
 AmiTK: Readme
 =============
 
@@ -81,7 +91,7 @@ CONTACT INFO
 ------------
 
 If you have bug reports, patches, suggestions, questions or anything of
-the like, create a new issue at https://github.com/ailazarus/amitk
+the like, create a new issue at https://github.com/x64k/amitk
 
 If you are creating a bug report, please mention what distribution you
 are using, what version of the application the bug report is about (if
