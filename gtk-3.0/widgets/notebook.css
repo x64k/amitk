@@ -25,11 +25,19 @@ notebook header {
     background: @bg_color;
 }
 
+notebook header.top {
+    margin: -1px -1px 0px 0px;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+    background-color: @bg_color;
+    box-shadow: inset  0px -1px 0 0 @border_color_dark;
+}
+
 notebook stack {
     padding-top: 4px;
     background: @bg_color;
     border-style: ridge;
-    border-top-width: 1px;
+    border-top-width: 0px;
     border-bottom-width: 1px;
     border-left-width: 1px;
     border-right-width: 1px;
@@ -41,12 +49,15 @@ notebook stack {
 
 notebook .top tab {
     margin-top: 0px;
-    border-bottom-color: @bg_color;
+    border-bottom-color: @border_color_dark;
     border-top-left-radius: 6px;
 }
 
 notebook .top tab:checked {
     margin-top: 0px;
+    border-bottom-color: @bg_color;
+    border-top-left-radius: 6px;
+    border-width: 1px 1px 1px 1px;
 }
 
 notebook .right tab {
